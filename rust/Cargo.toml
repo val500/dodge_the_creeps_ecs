@@ -9,5 +9,8 @@ edition = "2021"
 crate-type = ["cdylib"]  # Compile this crate to a dynamic C library.
 
 [dependencies]
+bevy_app = "0.13.0"
 bevy_ecs = "0.13.0"
-godot = { git = "https://github.com/godot-rust/gdext", branch = "master" }
+bevy_time = "0.13.0"
+godot = { git = "https://github.com/godot-rust/gdext", branch = "master", features = ["experimental-threads"] }
+rand = "0.8.5"

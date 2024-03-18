@@ -1,10 +1,10 @@
 use godot::prelude::*;
 
 mod game_scene;
-mod ecs;
 mod components;
 mod resources;
 mod player;
+mod mob;
 
 struct MyExtension;
 
